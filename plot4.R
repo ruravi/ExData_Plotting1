@@ -14,7 +14,7 @@ png(filename = "plot4.png")
 par(mfrow = c(2,2))
 # Plot Global active power against time.
 with(interested, plot(datetime, Global_active_power, type = "l",
-                      xlab = "", ylab = "Global Active Power (kilowatts)"))
+                      xlab = "", ylab = "Global Active Power"))
 
 # Plot Voltage against time.
 with(interested, plot(datetime, Voltage, type = "l", ylab = "Voltage"))
